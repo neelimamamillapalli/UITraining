@@ -8,35 +8,50 @@
 body
 {
 	/*height: 50%;*/
-	background-position: 50px;
+	/*background-position: 50px;*/
 	background-color: lightblue;
 	margin: 100px;
 	padding: 100px;
-	border-style: groove;
+	/*border-style: groove;*/
 
 }
 .fs16
 {
 font-size: 16px;
 }
-
-table,tr,td
-		{
-			border: 1px solid;
-		}
+.mdiv {
+    background-color: white;
+    padding: 32px;
+}
+table, tr, td {
+    border: 1px solid;
+    width: -webkit-fill-available;
+    text-align: left;
+}
+thead, th {
+    background-color: lightgray;
+}
 table
 		{
-			border-collapse: collapse;
+			    border-collapse: collapse;
+    			/* padding-top: 10px; */
+    			margin-top: 22px;
 		}
 #Total
 		{
-			text-align: right;
+			/*text-align: right;*/
+
 		}
+.div4
+{
+	text-align: right;
+	margin-top: 10px;
+}
 .div1
 		{
 			/*width: 300px;*/
 			/*height: 500px;*/
-			border-bottom: 1px solid;
+			/*border-bottom: 1px solid;*/
 			padding-bottom: 20px;
 
 
@@ -51,6 +66,34 @@ table
 {
 	float: left;
 	width: 50%;
+}
+.From,.To,.Desc
+{
+	float: left;
+
+
+}
+.From,.To{
+	width: 20%;
+}
+.Desc
+{
+	width: 60%;
+	text-align: justify;
+	
+}
+.div2
+{
+	border-bottom: 1px solid;
+	padding-bottom: 150px;
+}
+
+h4{
+	font-weight: bold;
+}
+.fs16,h5,p,td
+{
+	color: grey;
 }
 .clear
 {
