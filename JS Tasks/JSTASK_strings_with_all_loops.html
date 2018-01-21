@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+<script type="text/javascript">
+			var arr=['abc','def','ghi','jkl','mno','pqr','stu','vwx','yz'];
+			 console.log(arr.length);
+			/*for(var i=0;i<arr.length;i++) // for loop
+			{
+               
+				console.log("your name is"+' '+arr[i]);
+				
+			}*/
+			
+            /*var i=0; //if loop 
+			if (i <arr.length)
+			{
+
+				console.log("your name is"+' '+arr[i]);
+				i++;
+				console.log(arr[i]);
+			}*/
+			/*var i=0;//while loop
+			while(i <arr.length)
+			{
+
+				console.log("your name is"+' '+arr[i]);
+				i++;
+				
+			}*/
+			/*var i=0 ;//do - while loop starting
+			do 
+			{
+				
+				console.log("your name is"+' '+arr[i]);
+				i++;
+			}
+			while(i<arr.length);*/
+			var i =0
+			for (i in arr)
+			{
+				console.log("your name is"+' '+arr[i]);
+				
+				if(i==3)// to check with break logic
+				{
+                    break;
+					console.log("your name is"+' '+i);
+				}
+				i++;
+			}
+
+			
+			var name= prompt("what is your name");//prompt is to input the value
+
+			if(name=="pqr")
+				{
+					alert("Yes it is your valid name")//Alert is to display  the message
+					console.log("name is " +name);
+				}
+				else if (name=="stu")
+				{
+					alert("Yes it is your correct name")
+					console.log("name is " +name);
+				}
+				else 
+				{
+					alert("Yes it is not your valid name")
+					console.log("name is " +name);
+				}
+
+
+		</script>
+</body>
+</html>

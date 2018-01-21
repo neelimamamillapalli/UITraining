@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switch using number methods</title>
+</head>
+<body>
+<script type="text/javascript">
+		var a = prompt('Please choose a number between 1 - 10');
+		/*if (a>10)
+		{
+			alert("Not in the specifed range");
+		}*/
+		
+		console.log(a);
+
+		var num = Math.ceil(Math.random(a*5)*5);
+		console.log(num);
+		switch(num){
+			case 1:
+				console.log("your number is " + num);
+				alert(num);
+				break;
+			case 2:
+				console.log("your number is " + num);
+				alert(num);
+				break;
+			case 3:
+				console.log("your number is " + num);
+				alert(num);
+				break;
+			case 4:
+				console.log("your number is " + num);
+				alert(num);
+				break;
+			default:
+				console.log("this is Default...");
+		}
+</script>
+</body>
+</html>
